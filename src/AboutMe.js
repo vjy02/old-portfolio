@@ -1,10 +1,10 @@
 
-
+import headshot from './images/headshot.jpg';
 export default function AboutMe() {
   return (
         <div id="about-me-container" >
           <div id="about-img">
-            <p>SDasdasdsa</p>
+            <img src={headshot} />
           </div>
           <div id="about-info">
             <h2>About Me</h2>
@@ -18,14 +18,16 @@ export default function AboutMe() {
             </p>
             <div class="wrapper">
               <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <li>Reactjs</li>
+                <li>HTML</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
               </ul>
               <ul>
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>SQL</li>
               </ul>
             </div>
           </div>

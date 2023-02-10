@@ -36,7 +36,7 @@ export default function Header() {
 
   return (
     <Bounce top duration={500}in={!scrolling}>
-      <nav style={{boxShadow: pos ? "none" : "0 -2px 10px rgba(0, 0, 0, 1)"}}>
+      <nav style={{boxShadow: pos ? "none" : "0 -2px 10px rgba(0, 0, 0, 0.8)"}}>
         <Fade top>
           <Link to="home" smooth={true}>
             <p className="color-hover"> Home </p>
