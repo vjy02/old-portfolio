@@ -19,7 +19,9 @@ export default function Introduction() {
           passionate, fast and curious learner.
         </p>
       </Fade>
-      <button id="resume">Resume</button>
+       <Fade bottom distance="20%" delay={4000}>
+        <button id="resume">Resume</button>
+      </Fade>
     </div>
   );
 }
