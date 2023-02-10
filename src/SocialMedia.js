@@ -8,13 +8,13 @@ export default function SocialMedia() {
     <div>
       <div class="social-links">
         <Fade bottom>
-          <a href="mailto:victorjohyoshida@gmail.com">
+          <a href="mailto:victorjohyoshida@gmail.com" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
           </a>
-          <a href="https://github.com/vjy02">
+          <a href="https://github.com/vjy02" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
-          <a href="https://www.linkedin.com/in/victor-yoshida-140617243/">
+          <a href="https://www.linkedin.com/in/victor-yoshida-140617243/" target="_blank" rel="noreferrer">
             <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
           </a>
           <div className="vl"></div>

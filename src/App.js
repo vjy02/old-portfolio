@@ -31,7 +31,7 @@ export default function App() {
           <div id="content-container">
             <Introduction />
             <Parallax>
-              <Fade bottom distance="20%" duration={3000}>
+              <Fade bottom distance="20%" duration={1000}>
                 <AboutMe />
               </Fade>
             </Parallax>
