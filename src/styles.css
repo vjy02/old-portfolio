@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&family=Source+Code+Pro&display=swap");
+
+* {
+  margin: 0;
+}
+
+:root {
+  font-family: "Karla", monospace;
+  background: #141514;
+  color: #e9e9e9;
+}
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25vh;
+}
+
+nav {
+  gap: 3vw;
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  position: sticky;
+  background-color: #141514;
+  opacity: 0.8;
+  top: 0;
+  z-index: 2;
+  transition: transform 100ms ease-in-out;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.color-hover {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  color: rgb(168, 168, 168);
+  margin-left: 30px;
+}
+
+.color-hover:hover {
+  color: #e9e9e9;
+}
+
+.color-hover:before {
+  content: "";
+  width: 0;
+  height: 5px;
+  background-color: #d4af37;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  transition: all 0.5s;
+}
+
+.color-hover:after {
+  content: "";
+  width: 0;
+  height: 5px;
+  background-color: #d4af37;
+  position: absolute;
+  top: 120%;
+  right: 0;
+  transition: all 0.5s;
+}
+
+.color-hover:hover:before {
+  width: 50%;
+  transform: translateX(100%);
+}
+
+.color-hover:hover:after {
+  width: 50%;
+  transform: translateX(-100%);
+}
+
+button {
+  padding: 20px 5px;
+  background: none;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+  color: #d4af37;
+  width: 15vw;
+  margin-top: 5vh;
+}
+
+button:after,
+button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 2px solid #d4af37;
+  transition: transform 0.2s;
+}
+
+button:after {
+  transform: translate(3px, 3px);
+}
+
+button:before {
+  transform: translate(-3px, -3px);
+}
+
+button:hover:after,
+button:hover:before {
+  transform: translate(0);
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 50vw;
+  height: 70vh;
+  gap: 2vh;
+  color: #b6b6b6;
+}
+
+p {
+  font-size: 2.5vmin;
+}
+
+#intro-name {
+  font-size: 4vmax;
+}
+
+.intro-font {
+  font-family: "Source Code Pro";
+  color: #e9e9e9;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0;
+  transition: all 4000ms linear 0s;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  bottom: 0vh;
+  margin-left: 6vw;
+  gap: 3vh;
+  z-index: 1;
+}
+
+.social-links a {
+  font-size: 3vh;
+  color: grey;
+}
+
+.icon {
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-links a:hover svg {
+  fill: #d4af37;
+  color: #d4af37;
+  transform: translate(0px, -15%);
+  transition-timing-function: linear;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  height: 25vh;
+}
+#contact-me {
+  margin-right: 5vw;
+}
+
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+.fadeIn {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
+
+#introduction-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+
+.variant {
+  position: relative;
+  padding: clamp(3rem, 6vw, 5rem);
+  margin: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+#about-me-container {
+  display: flex;
+  height: 70vh;
+  width: 80vw;
+  margin-left: 10vw;
+  background: #212023;
+  opacity: 0.8;
+  margin-bottom: 30vh;
+  padding-top: 10vh;
+}
+
+#about-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  border: 1px purple solid;
+}
+
+#about-img {
+  width: 50%;
+  border: 1px purple solid;
+}
+
+.cyan-font {
+  color: #d4af37;
+}
+
+@media (max-width: 600px) {
+  nav {
+    justify-content: center;
+  }
+  p {
+    margin: 0;
+    font-size: 4.5vw;
+  }
+
+  #introduction-container {
+    align-self: center;
+  }
+
+  .intro-container {
+    width: 65vw;
+    height: 60vh;
+  }
+
+  .social-links {
+    display: none;
+  }
+}
