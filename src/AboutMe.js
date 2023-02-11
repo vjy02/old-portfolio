@@ -3,7 +3,8 @@ import headshot from './images/headshot.jpg';
 export default function AboutMe() {
   return (
         <div id="about-me-container" >
-          <div id="about-img">
+          <div className="a-card bg"></div>
+          <div className="box">
             <img src={headshot} />
           </div>
           <div id="about-info">
