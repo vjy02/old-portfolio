@@ -228,16 +228,69 @@ p {
   display: flex;
   flex-direction: column;
   gap: 3vh;
-  border: 1px purple solid;
 }
+
 
 #about-img {
   width: 50%;
   border: 1px purple solid;
 }
 
+
+.box {
+  position: relative;
+  width: 280px;
+  height: 400px;
+  background: #fff;
+  transition: 0.5s;
+  overflow: hidden;
+}
+ .box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0;
+  object-fit: cover;
+}
+ .box:after {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #f0f2f0;
+  z-index: 1;
+  transition: 0.5s;
+  bottom: 0;
+}
+
+.box:before {
+  content: "";
+  opacity: 0.9;
+  position: absolute;
+  bottom: -100%;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  top: 0; 
+}
+
+.box:hover:after {
+  top: -100%;
+}
+.box:hover:before {
+  bottom: -100%;
+}
+
+
 .cyan-font {
-  color: #d4af37;
+color: #d4af37;
 }
 
 button {
