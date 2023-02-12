@@ -2,15 +2,15 @@ import Fade from "react-reveal/Fade";
 export default function Introduction() {
   return (
     <div className="intro-container">
-      <Fade bottom distance="20%" delay={1000}>
+      <Fade top distance="20%" delay={1000}>
         <p className="intro-font">Hey, my name is</p>
       </Fade>
-      <Fade bottom distance="20%" delay={2000}>
+      <Fade top distance="20%" delay={1100}>
         <h1 id="intro-name">
           <span className="cyan-font">Victor</span> Yoshida.
         </h1>
       </Fade>
-      <Fade bottom distance="20%" delay={3000}>
+      <Fade top distance="20%" delay={1200}>
         <p>
           I'm a <span className="cyan-font">software developer</span> and{" "}
           <span className="cyan-font">data analyst</span> based in Melbourne,
@@ -19,7 +19,7 @@ export default function Introduction() {
           passionate, fast and curious learner.
         </p>
       </Fade>
-       <Fade bottom distance="20%" delay={4000}>
+       <Fade top distance="20%" delay={1300}>
         <button id="resume">Resume</button>
       </Fade>
     </div>
