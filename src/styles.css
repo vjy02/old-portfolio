@@ -132,7 +132,7 @@ button:hover:before {
 }
 
 p {
-  font-size: 2.5vmin;
+  font-size: 2vmin;
 }
 
 #intro-name {
@@ -210,6 +210,12 @@ p {
   align-items: right;
 }
 
+.header>h1{
+  margin-bottom: 3vh;
+  text-decoration: #d4af37 solid underline;
+  text-underline-position: under;
+  text-underline-offset: 0.1em;
+}
 
 
 #about-me-container {
@@ -227,7 +233,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 55%;
-  margin-left: 30vw;
+  margin-left: 27vw;
   height: 70vh;
 }
 
@@ -235,6 +241,7 @@ p {
   position: relative;
   width: 17vw;
   height: 35vh;  
+  min-width:300px;
 }
 
 .wrapper {
@@ -244,6 +251,8 @@ p {
   height: 35vh;
   border-radius: 10px;
   background-color: #d4af37;
+  margin-right: 3vw;
+  min-width:300px;
 }
 
 .wrapper:hover, .wrapper:focus {
@@ -294,58 +303,6 @@ p {
 }
 
 
-/*
-.box {
-  position: relative;
-  width: 280px;
-  height: 400px;
-  background: #fff;
-  transition: 0.5s;
-  overflow: hidden;
-}
- .box img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 1rem 0;
-  object-fit: cover;
-}
- .box:after {
-  content: "";
-  position: absolute;
-  top: -100%;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  background: #f0f2f0;
-  z-index: 1;
-  transition: 0.5s;
-  bottom: 0;
-}
-
-.box:before {
-  content: "";
-  opacity: 0.9;
-  position: absolute;
-  bottom: -100%;
-  right: 0;
-  width: 50%;
-  height: 100%;
-  background: #fff;
-  z-index: 1;
-  transition: 0.5s;
-  top: 0; 
-}
-
-.box:hover:after {
-  top: -100%;
-}
-.box:hover:before {
-  bottom: -100%;
-}
-*/
 
 .cyan-font {
 color: #d4af37;
