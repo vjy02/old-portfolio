@@ -15,6 +15,8 @@ export default function AboutMe() {
                 sapien. Cras congue enim a augue commodo, sit amet consequat magna
                 condimentum. Pellentesque habitant morbi tristique senectus et netus
                 et malesuada fames ac turpis egestas. Sed at metus quam.
+                I've been coding since my first scratch program and fell in love with this space ever since.
+                Although my interests have broadened beyond the simple scratch games, my passion remains to build things that improve peoples' lives.
               </p>
               <div>
                 <ul>
