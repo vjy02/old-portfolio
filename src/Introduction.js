@@ -7,7 +7,7 @@ export default function Introduction() {
       </Fade>
       <Fade top distance="20%" delay={1100}>
         <h1 id="intro-name">
-          <span className="cyan-font">Victor</span> Yoshida.
+          <span className="gold-font">Victor</span> Yoshida.
         </h1>
       </Fade>
       <Fade top distance="20%" delay={1200}>
