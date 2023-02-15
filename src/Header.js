@@ -44,7 +44,7 @@ export default function Header() {
         </Fade>
         <Fade top>
           <p className="color-hover">
-            <Link to="about-me-container" smooth={true}>
+            <Link to="about-section" smooth={true}>
               {" "}
               About{" "}
             </Link>
