@@ -12,11 +12,12 @@ export default function Introduction() {
       </Fade>
       <Fade top distance="20%" delay={1200}>
         <p>
-          I'm a <span className="cyan-font">software developer</span> and{" "}
-          <span className="cyan-font">data analyst</span> based in Melbourne,
+          I'm a <span className="gold-font">software developer</span> and{" "}
+          <span className="gold-font">data analyst</span> based in Melbourne,
           Australia. I create and design digital solutions that focus on
           practicality and sophistication. I have a keen eye for detail and am a
-          passionate, fast and curious learner.
+          passionate, fast and curious learner. Click below for my resume or scroll
+          down to see more about me and my projects.
         </p>
       </Fade>
        <Fade top distance="20%" delay={1300}>
