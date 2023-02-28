@@ -11,8 +11,10 @@ export default function AboutMe() {
               <p>
                 Hi! My name is Victor, currently a student at the <span className="gold-font">University of Melbourne</span> pursuing a degree
                 of <span className="gold-font">computing software and systems</span>.
-                I had the privelage working as a <span className="gold-font">data analyst</span> where I was able to develop much needed professional 
-                experience and data analytics skills, but I knew I always wanted to experience more.
+
+                I had the privelage working as a data analyst where I was able to develop much needed professional 
+                experience and data analytics skills, but I knew I always wanted to experience more. Hence my current
+                learning journey in cloud solutions like Azure and further refining my frontend skills.
               </p>
               <p>
                 As a naturally curious learner, I was drawn to web development after learning the basics of HTML.
@@ -32,8 +34,8 @@ export default function AboutMe() {
                 </ul>
                 <ul>
                   <li>Python</li>
-                  <li>C#</li>
-                  <li>.NET</li>
+                  <li>C</li>
+                  <li>Java</li>
                   <li>SQL</li>
                   <li>PowerBI</li>
                   <li>Git</li>
