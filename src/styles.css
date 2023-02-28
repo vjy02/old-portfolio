@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 25vh;
+  gap: 15vh;
 }
 
 nav {
@@ -219,7 +219,6 @@ p {
   text-underline-offset: 0.1em;
 }
 
-
 #about-me-container {
   display: flex;
   justify-content: space-between;
@@ -232,7 +231,7 @@ p {
   gap: 3em;
 }
 
-.section{
+#about-section{
   display: flex;
   flex-direction: column;
   width: 55vw;
@@ -389,6 +388,20 @@ li {
   margin-left: 10em;
 }
 
+#projects-section{
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  padding-top: 10em;
+  margin-left: 27vw;
+  height: 70vh;
+}
+
+.card{
+  background: grey;
+  width: 50vw;
+  height: 20vh;
+}
 
 @media (max-width: 600px) {
   nav {
