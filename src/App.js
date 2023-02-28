@@ -3,6 +3,7 @@ import Header from "./Header.js";
 import Introduction from "./Introduction.js";
 import SocialMedia from "./SocialMedia.js";
 import AboutMe from "./AboutMe.js";
+import Projects from "./Projects.js"
 import React, { useState, useEffect } from "react";
 import PuffLoader from "react-spinners/PuffLoader";
 import { Parallax } from "react-parallax";
@@ -33,6 +34,11 @@ export default function App() {
             <Parallax>
               <Fade bottom distance="20%" duration={1000}>
                 <AboutMe />
+              </Fade>
+            </Parallax>
+            <Parallax>
+              <Fade bottom distance="20%" duration={1000}>
+                <Projects />
               </Fade>
             </Parallax>
           </div>
