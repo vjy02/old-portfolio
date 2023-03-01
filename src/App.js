@@ -2,6 +2,7 @@ import "./styles.css";
 import Header from "./Header.js";
 import Introduction from "./Introduction.js";
 import SocialMedia from "./SocialMedia.js";
+import ContactMe from "./ContactMe.js";
 import AboutMe from "./AboutMe.js"
 import Projects from "./Projects.js"
 import React, { useState, useEffect } from "react";
@@ -16,7 +17,7 @@ export default function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 4500);
+    }, 3000);
   }, []);
 
   return (
@@ -39,6 +40,11 @@ export default function App() {
             <Parallax>
               <Fade bottom distance="20%" duration={1000}>
                 <Projects />
+              </Fade>
+            </Parallax>
+            <Parallax>
+              <Fade bottom distance="20%" duration={1000}>
+                <ContactMe />
               </Fade>
             </Parallax>
           </div>
