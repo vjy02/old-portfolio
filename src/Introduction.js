@@ -1,4 +1,6 @@
 import Fade from "react-reveal/Fade";
+import Pdf from './Resume.pdf';
+
 export default function Introduction() {
   return (
     <div className="intro-container">
@@ -21,7 +23,9 @@ export default function Introduction() {
         </p>
       </Fade>
        <Fade top distance="20%" delay={1300}>
-        <button id="resume">Resume</button>
+         <a href = {Pdf} target = "_blank">
+          <button id="resume">Resume</button>
+        </a>
       </Fade>
     </div>
   );

@@ -52,14 +52,18 @@ export default function Header() {
         </Fade>
         <Fade top delay={200}>
           <p className="color-hover orange" id="projects">
+            <Link to="project-container" smooth={true}>
             {" "}
             Projects{" "}
+            </Link>
           </p>
         </Fade>
         <Fade top delay={400}>
           <p className="color-hover purple" id="contact-me">
-            {" "}
-            Contact Me{" "}
+            <Link to ="contact-section" smooth={true}>
+              {" "}
+              Contact Me{" "}
+          </Link>
           </p>
         </Fade>
       </nav>
