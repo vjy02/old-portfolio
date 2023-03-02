@@ -11,7 +11,8 @@ export default function Projects() {
                     <p>My first Reactjs project, I put this first as it marked the start of my journey
                             as a developer. The web application uses React hooks and states
                             to properly track the quiz game. Questions and answers are gathered from an external API and a new
-                            set is generated each retry. 
+                            set is generated each retry. Redo of this project is planned with more functionality (e.g. choosing difficulty, theme and length) alongside
+                            a more aesthetically aligned theme.
                     </p>
                     <ul>
                         <li>Reactjs</li>
