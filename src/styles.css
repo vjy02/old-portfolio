@@ -245,8 +245,8 @@ p {
   position: relative;
   width: 18vw;
   height: 18vw;  
-  min-width:200px;
-  min-height: 200px;
+  min-width:250px;
+  min-height: 250px;
 }
 
 .wrapper {
@@ -254,8 +254,8 @@ p {
   position: relative;
   width: 18vw;
   height: 18vw;  
-  min-width:200px;
-  min-height: 200px;
+  min-width:250px;
+  min-height: 250px;
   border-radius: 10px;
   background-color: #d4af37;
   margin-right: 3vw;
@@ -359,7 +359,7 @@ li {
     background: none;
     color: #d4af37;
     margin: 6px;
-    font-size: 1em;
+    font-size: 1.25em;
     border: 1px solid #d4af37;
 }
 
@@ -449,7 +449,34 @@ li {
 }
 
 @media(max-width: 1200px){
-    #project-container{
+  
+  #about-section{
+    width: 75vw;
+    height: 110vh;
+    margin-left: 0;
+    padding-top: 0;
+    flex-direction: column;
+  }
+
+  #about-me-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  #about-me-container>.wrapper{
+    order: -1;
+    margin: 1.5em 0 4em 1.5em;
+  }
+
+  #about-info {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+  }
+  
+  #project-container{
     flex-direction: column;
     gap: 6em;
     width: 70vw;
@@ -462,7 +489,7 @@ li {
     flex-direction:column;
     width: 70vw;
     height: 90vh;
-    gap: 0;
+    gap: 0px;
   }
   
   #project-right{
@@ -474,7 +501,7 @@ li {
   }
   
   .project-img{
-    min-width: 400px;
+    min-width: 600px;
     min-height:300px;
     margin-top: 0em;
   }
@@ -484,12 +511,16 @@ li {
     height: 50vh;
   }
   
-  li {
-    font-size: 1em;
-  }
-  
   #about-section{
     height: 100vh;
+  }
+  
+  .social-links {
+    display: none;
+  }
+
+  .contact-section > h2{
+    width: 50vw;
   }
 
 }
@@ -522,31 +553,6 @@ li {
     margin-right: auto;
   }
   
-  #about-section{
-    width: 75vw;
-    height: 110vh;
-    margin-left: 0;
-    padding-top: 0;
-    flex-direction: column;
-  }
-  
-  #about-me-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  
-  #about-me-container>.wrapper{
-    order: -1;
-    margin: 1.5em 0 4em 1.5em;
-  }
-  
-  #about-info {
-    display: flex;
-    width: 100%;
-    gap: 1em;
-  }
   
   ul{
     display: inline-block;
@@ -558,17 +564,13 @@ li {
   
   li {
     margin-left: 0;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   
   #content-container {
     display: flex;
     flex-direction: column;
     gap: 10vh;
-  }
-
-  .social-links {
-    display: none;
   }
   
   .contact-section{
