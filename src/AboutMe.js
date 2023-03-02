@@ -25,25 +25,20 @@ export default function AboutMe() {
                 always seeking out new challenges and opportunities to grow my knowledge and expertise.
                   
               </p>
-              <div>
-                <ul>
-                  <li>Reactjs</li>
-                  <li>HTML</li>
-                  <li>CSS3</li>
-                  <li>Javascript</li>
-                  <li>Nodejs</li>
-                </ul>
-                <ul>
-                  <li>Python</li>
-                  <li>C</li>
-                  <li>Java</li>
-                  <li>SQL</li>
-                  <li>PowerBI</li>
-                  <li>Git</li>
-                </ul>
-              </div>
+              <ul>
+                <li>Reactjs</li>
+                <li>HTML</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>Nodejs</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>PowerBI</li>
+                <li>Git</li>
+              </ul>
           </div>
-
           <div className="wrapper">
             <img className="img" src={headshot} />
           </div>
