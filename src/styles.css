@@ -238,7 +238,7 @@ p {
   flex-direction: column;
   width: 55vw;
   margin-left: 20vw;
-  height: 70vh;
+  height: 90vh;
 }
 
 .img{
@@ -359,16 +359,16 @@ li {
     background: none;
     color: #d4af37;
     margin: 6px;
-    font-size: 1rem;
+    font-size: 1em;
     border: 1px solid #d4af37;
 }
 
 #project-container{
   display: flex;
   flex-direction: column;
-  gap: 20vh;
+  gap: 30vh;
   width: 65vw;
-  height: 170vh;
+  height: 190vh;
   margin-left: 10em;
 }
 
@@ -448,7 +448,54 @@ li {
   text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media(max-width: 1200px){
+    #project-container{
+    flex-direction: column;
+    gap: 6em;
+    width: 70vw;
+    height: 320vh;
+    margin-left: 0;
+  }
+  
+  .project-wrapper{
+    display: flex;
+    flex-direction:column;
+    width: 70vw;
+    height: 90vh;
+    gap: 0;
+  }
+  
+  #project-right{
+    margin-left: 0;
+  }
+  
+  #project-right > .project-img{
+    order: 2;
+  }
+  
+  .project-img{
+    min-width: 400px;
+    min-height:300px;
+    margin-top: 0em;
+  }
+
+  .project-box{
+    width: 100%;
+    height: 50vh;
+  }
+  
+  li {
+    font-size: 1em;
+  }
+  
+  #about-section{
+    height: 100vh;
+  }
+
+}
+
+
+@media (max-width: 800px) {
   nav {
     display: none;
   }
@@ -486,7 +533,9 @@ li {
   #about-me-container{
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
+
   
   #about-me-container>.wrapper{
     order: -1;
@@ -520,41 +569,6 @@ li {
 
   .social-links {
     display: none;
-  }
-  
-  #project-container{
-    flex-direction: column;
-    gap: 6em;
-    width: 70vw;
-    height: 280vh;
-    margin-left: 0;
-  }
-  
-  .project-wrapper{
-    display: flex;
-    flex-direction:column;
-    width: 70vw;
-    height: 90vh;
-    gap: 0;
-  }
-  
-  #project-right > .project-img{
-    order: 2;
-  }
-  
-  .project-img{
-    width: 100%;
-    height:150px;
-    margin-top: 3em;
-  }
-
-  .project-box{
-    width: 100%;
-    height: 50vh;
-  }
-
-  #project-right{
-    margin-left: 0;
   }
   
   .contact-section{
