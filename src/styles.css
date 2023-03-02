@@ -526,7 +526,7 @@ li {
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   nav {
     display: none;
   }
@@ -544,9 +544,16 @@ li {
 
   .intro-container {
     width: 70vw;
-    height: 60vh;
+    height: 100vh;
   }
   
+  .about-section{
+    height: 300vh;
+  }
+  
+  #about-info > #second-description{
+    display: none;
+  }
 
   
   .intro-font {
@@ -564,7 +571,15 @@ li {
   
   li {
     margin-left: 0;
-    font-size: 0.9em;
+    font-size: 0.7em;
+  }
+  
+  
+  .project-img{
+    min-width: 400px;
+    height:75px;
+    margin-top: 0em;
+    object-fit: fit;
   }
   
   #content-container {
