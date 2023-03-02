@@ -17,7 +17,7 @@ export default function AboutMe() {
                 experience and data analytics skills, but I knew I always wanted to experience more. Hence my current
                 learning journey in cloud solutions like <span className="gold-font">Azure</span> and further refining my frontend skills.
               </p>
-              <p>
+              <p id = "second-description">
                 As a naturally curious learner, I was drawn to web development after learning the basics of HTML.
                 The challenge of <span className="gold-font">full-stack development</span> appealed to me, and I felt an incredible sense of 
                 accomplishment when I developed my first web application.

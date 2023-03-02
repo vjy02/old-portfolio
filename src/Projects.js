@@ -11,9 +11,7 @@ export default function Projects() {
                     <p>My first Reactjs project, I put this first as it marked the start of my journey
                             as a developer. The web application uses React hooks and states
                             to properly track the quiz game. Questions and answers are gathered from an external API and a new
-                            set is generated each time. The quiz theme surrounds gaming, but I plan to remake this project
-                            with a choice of difficulty, number of questions and theme. I also plan to make a more aesthetically aligned
-                            website, but I was more focused on functionality for my first project.
+                            set is generated each retry. 
                     </p>
                     <ul>
                         <li>Reactjs</li>
@@ -36,9 +34,7 @@ export default function Projects() {
                     <p>Suspendisse potenti. Etiam id consectetur ligula. Nullam vel purus pharetra, posuere magna ut, 
                         eleifend nisi. Suspendisse vel risus et justo commodo tincidunt. Fusce eget porttitor neque.
                         Duis lacus purus, sollicitudin nec rhoncus elementum, ultrices eu dolor. Pellentesque aliquet facilisis diam eu auctor.
-                        Donec sed ullamcorper lorem, sed ultrices urna. Aliquam erat volutpat. In hac habitasse platea dictumst. Curabitur efficitur scelerisque dolor,
-                        a lobortis libero rutrum et. Ut sit amet porttitor tortor. Phasellus eleifend, velit eget rhoncus ultricies, tortor metus laoreet magna, a bibendum 
-                        nisl dui vel quam.
+                        Donec sed ullamcorper lorem, sed ultrices urna. Aliquam erat volutpat. In hac habitasse platea dictumst. 
                     </p>
                     <ul>
                         <li>Reactjs</li>
@@ -56,8 +52,7 @@ export default function Projects() {
                     <p>Suspendisse potenti. Etiam id consectetur ligula. Nullam vel purus pharetra, posuere magna ut, 
                         eleifend nisi. Suspendisse vel risus et justo commodo tincidunt. Fusce eget porttitor neque.
                         Duis lacus purus, sollicitudin nec rhoncus elementum, ultrices eu dolor. Pellentesque aliquet facilisis diam eu auctor.
-                        Donec sed ullamcorper lorem, sed ultrices urna. Aliquam erat volutpat. In hac habitasse platea dictumst. Curabitur efficitur scelerisque dolor,
-                        a lobortis libero rutrum et.
+                        Donec sed ullamcorper lorem, sed ultrices urna. Aliquam erat volutpat. 
                     </p>
                     <ul>
                         <li>???</li>
