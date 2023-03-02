@@ -2,11 +2,10 @@ import placeholder from './images/comingsoon.png';
 import project1 from './images/project1.PNG';
 export default function Projects() {
     return(
-    <div>
         <div id="project-container">
             <div className = "project-wrapper">
                 <div className = "project-box">
-                    <div className="header underline">
+                    <div className="underline">
                         <h1>Gaming Quiz Game</h1>
                     </div>
                     <p>My first Reactjs project, I put this first as it marked the start of my journey
@@ -41,6 +40,12 @@ export default function Projects() {
                         a lobortis libero rutrum et. Ut sit amet porttitor tortor. Phasellus eleifend, velit eget rhoncus ultricies, tortor metus laoreet magna, a bibendum 
                         nisl dui vel quam.
                     </p>
+                    <ul>
+                        <li>Reactjs</li>
+                        <li>Nodejs</li>
+                        <li>MongoDB</li>
+                        <li>Expressjs</li>
+                    </ul>
                 </div>
             </div>
             <div className = "project-wrapper">
@@ -55,10 +60,14 @@ export default function Projects() {
                         a lobortis libero rutrum et. Ut sit amet porttitor tortor. Phasellus eleifend, velit eget rhoncus ultricies, tortor metus laoreet magna, a bibendum 
                         nisl dui vel quam.
                     </p>
+                    <ul>
+                        <li>???</li>
+                        <li>???</li>
+                        <li>???</li>
+                    </ul>
                 </div>
                 <img className="project-img" src={placeholder}/>
             </div>
         </div>
-    </div>
     )
 }
