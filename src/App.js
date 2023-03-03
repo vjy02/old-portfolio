@@ -38,7 +38,7 @@ export default function App() {
               </Fade>
             </Parallax>
             <Parallax>
-              <Fade bottom distance="20%" duration={1000}>
+              <Fade bottom distance="10%" duration={1000}>
                 <Projects />
               </Fade>
             </Parallax>
