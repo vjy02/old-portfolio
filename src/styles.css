@@ -359,8 +359,9 @@ li {
     background: none;
     color: #d4af37;
     margin: 6px;
-    font-size: 1.25em;
+    font-size: 1.1em;
     border: 1px solid #d4af37;
+    border-radius: 5px;
 }
 
 #project-container{
