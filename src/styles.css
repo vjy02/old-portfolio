@@ -130,7 +130,7 @@ button:hover:before {
   gap: 2vh;
 }
 
-h1{
+h1 {
   color: #e9e0c9;
 }
 p {
@@ -212,7 +212,7 @@ p {
   align-items: right;
 }
 
-.underline{
+.underline {
   margin-bottom: 3vh;
   text-decoration: #d4af37 solid underline;
   text-underline-position: under;
@@ -231,7 +231,7 @@ p {
   gap: 3em;
 }
 
-#about-section{
+#about-section {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -241,11 +241,11 @@ p {
   height: 90vh;
 }
 
-.img{
+.img {
   position: relative;
   width: 18vw;
-  height: 18vw;  
-  min-width:250px;
+  height: 18vw;
+  min-width: 250px;
   min-height: 250px;
 }
 
@@ -253,25 +253,27 @@ p {
   display: block;
   position: relative;
   width: 18vw;
-  height: 18vw;  
-  min-width:250px;
+  height: 18vw;
+  min-width: 250px;
   min-height: 250px;
   border-radius: 10px;
   background-color: #d4af37;
   margin-right: 3vw;
 }
 
-.wrapper:hover, .wrapper:focus {
+.wrapper:hover,
+.wrapper:focus {
   outline: 0;
 }
 
-.wrapper:hover:after, .wrapper:focus:after {
+.wrapper:hover:after,
+.wrapper:focus:after {
   top: 15px;
   left: 15px;
-  
 }
 
-.wrapper:hover .img, .wrapper:focus .img {
+.wrapper:hover .img,
+.wrapper:focus .img {
   filter: none;
   mix-blend-mode: normal;
 }
@@ -281,17 +283,17 @@ p {
   border-radius: 10px;
   mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1);
-
 }
 
-.wrapper:before, .wrapper:after {
-  content: '';
+.wrapper:before,
+.wrapper:after {
+  content: "";
   display: block;
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .wrapper:before {
@@ -308,10 +310,8 @@ p {
   z-index: -1;
 }
 
-
-
 .gold-font {
-color: #d4af37;
+  color: #d4af37;
 }
 
 button {
@@ -354,17 +354,17 @@ button:hover:before {
 }
 
 li {
-    display: inline-block;
-    padding: 8px;
-    background: none;
-    color: #d4af37;
-    margin: 6px;
-    font-size: 1.1em;
-    border: 1px solid #d4af37;
-    border-radius: 5px;
+  display: inline-block;
+  padding: 8px;
+  background: none;
+  color: #d4af37;
+  margin: 6px;
+  font-size: 1.1em;
+  border: 1px solid #d4af37;
+  border-radius: 5px;
 }
 
-#project-container{
+#project-container {
   display: flex;
   flex-direction: column;
   gap: 30vh;
@@ -373,7 +373,7 @@ li {
   margin-left: 10em;
 }
 
-.project-wrapper{
+.project-wrapper {
   display: flex;
   width: 60vw;
   gap: 100px;
@@ -381,11 +381,14 @@ li {
   align-items: center;
 }
 
-
-
-.project-img{
+.project-img-wrapper {
   width: 25vw;
-  height:35vh;
+  height: 35vh;
+}
+
+.project-img {
+  height: 100%;
+  width: 100%;
   mix-blend-mode: multiply;
   filter: grayscale(100%) contrast(1);
   z-index: 1;
@@ -395,13 +398,12 @@ li {
   justify-self: center;
 }
 
-.project-img:hover{
+.project-img:hover {
   filter: none;
   background-blend-mode: normal;
 }
 
-
-.project-box{
+.project-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -411,16 +413,16 @@ li {
   gap: 5px;
 }
 
-.project-box > ul{
+.project-box > ul {
   margin-top: 1.5rem;
   width: 100%;
 }
 
-#project-right{
+#project-right {
   margin-left: 5em;
 }
 
-.contact-section{
+.contact-section {
   margin-top: 15vh;
   height: 60vh;
   width: 60vw;
@@ -430,28 +432,27 @@ li {
   justify-content: top;
 }
 
-.contact-section > h1{
+.contact-section > h1 {
   font-size: 50px;
 }
-.contact-section > h2{
+.contact-section > h2 {
   width: 30vw;
   text-align: center;
   font-weight: normal;
 }
 
-.contact-section > h2>a:link {
+.contact-section > h2 > a:link {
   color: #d4af37;
   text-decoration: none;
 }
 
-.contact-section > h2>a:visited {
+.contact-section > h2 > a:visited {
   color: #d4af37;
   text-decoration: none;
 }
 
-@media(max-width: 1200px){
-  
-  #about-section{
+@media (max-width: 1200px) {
+  #about-section {
     width: 75vw;
     height: 110vh;
     margin-left: 0;
@@ -459,14 +460,13 @@ li {
     flex-direction: column;
   }
 
-  #about-me-container{
+  #about-me-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-
-  #about-me-container>.wrapper{
+  #about-me-container > .wrapper {
     order: -1;
     margin: 1.5em 0 4em 1.5em;
   }
@@ -476,56 +476,54 @@ li {
     width: 100%;
     gap: 1em;
   }
-  
-  #project-container{
+
+  #project-container {
     flex-direction: column;
     gap: 6em;
     width: 70vw;
     height: 320vh;
     margin-left: 0;
   }
-  
-  .project-wrapper{
+
+  .project-wrapper {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     width: 70vw;
     height: 90vh;
     gap: 0px;
   }
-  
-  #project-right{
+
+  #project-right {
     margin-left: 0;
   }
-  
-  #project-right > .project-img{
+
+  #project-right > .project-img {
     order: 2;
   }
-  
-  .project-img{
+
+  .project-img {
     min-width: 600px;
-    min-height:300px;
+    min-height: 300px;
     margin-top: 0em;
   }
 
-  .project-box{
+  .project-box {
     width: 100%;
     height: 50vh;
   }
-  
-  #about-section{
+
+  #about-section {
     height: 100vh;
   }
-  
+
   .social-links {
     display: none;
   }
 
-  .contact-section > h2{
+  .contact-section > h2 {
     width: 50vw;
   }
-
 }
-
 
 @media (max-width: 900px) {
   nav {
@@ -536,7 +534,7 @@ li {
     font-size: 15px;
   }
 
-  button{
+  button {
     height: 60px;
     width: 200px;
     align-self: center;
@@ -547,49 +545,45 @@ li {
     width: 70vw;
     height: 100vh;
   }
-  
-  .about-section{
+
+  .about-section {
     height: 300vh;
   }
-  
-  #about-info > #second-description{
+
+  #about-info > #second-description {
     display: none;
   }
 
-  
   .intro-font {
     margin-right: auto;
   }
-  
-  
-  ul{
+
+  ul {
     display: inline-block;
     width: 100%;
     padding: 0;
     margin: 0;
   }
-  
-  
+
   li {
     margin-left: 0;
     font-size: 0.9em;
   }
-  
-  
-  .project-img{
+
+  .project-img {
     min-width: 400px;
-    height:75px;
+    height: 75px;
     margin-top: 0em;
     object-fit: fit;
   }
-  
+
   #content-container {
     display: flex;
     flex-direction: column;
     gap: 10vh;
   }
-  
-  .contact-section{
+
+  .contact-section {
     margin-top: 0;
     height: 50vh;
     width: 70vw;
@@ -599,11 +593,11 @@ li {
     justify-content: None;
   }
 
-  .contact-section > h1{
+  .contact-section > h1 {
     font-size: 30px;
   }
-  
-  .contact-section > h2{
+
+  .contact-section > h2 {
     width: 70vw;
     text-align: center;
     font-weight: normal;
