@@ -11,17 +11,19 @@ export default function Projects() {
             <h1>CulinaryAI</h1>
           </div>
           <p>
-            My first project involving TailWindCSS while also exploring the new
-            Chat-GPT3 API. I was intrigued by the new API introduced by OpenAI,
-            hence the development of this project. It suggests recipes based of
-            users preferred and non preferred ingridients. I used the
-            SpoonacularAPI in order to ensure users would input valid
-            ingridients and generated answers with Chat-GPT3's API. I plan on
-            implementing a backend feature with authentication, allowing users
-            to login and view their saved recipes.
+            My first project involving TailWind CSS while also exploring the new
+            Chat-GPT3 API. I have always been drawn to machine learning so
+            naturally when the GPT3 API got announced I knew I had to build
+            something with it. CulinaryAI suggests recipes based of users
+            preferred and non preferred ingridients. I used the SpoonacularAPI
+            in order to ensure users would input valid ingridients and generated
+            answers with Chat-GPT3's API. I plan on implementing a backend
+            feature with authentication, allowing users to login and view their
+            saved recipes.
           </p>
           <ul>
             <li>Reactjs</li>
+            <li>TailWind CSS</li>
             <li>API</li>
             <li>HTML</li>
             <li>CSS3</li>
@@ -44,13 +46,12 @@ export default function Projects() {
             <h1>Gaming Quiz Game</h1>
           </div>
           <p>
-            My first Reactjs project, I put this first as it marked the start of
-            my journey as a developer. The web application uses React hooks and
-            states to properly track the quiz game. Questions and answers are
-            gathered from an external API and a new set is generated each retry.
-            Redo of this project is planned with more functionality (e.g.
-            choosing difficulty, theme and length) alongside a more
-            aesthetically aligned theme.
+            My first Reactjs project, this web application is a gaming quiz that
+            uses OpenTriviaDB's API. Questions and answers are gathered from
+            this API and a new set is generated each retry of the quiz. Redo of
+            this project is planned with more functionality (e.g. choosing
+            difficulty, theme and length) alongside a more aesthetically aligned
+            theme.
           </p>
           <ul>
             <li>Reactjs</li>
