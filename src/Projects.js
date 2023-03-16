@@ -6,12 +6,14 @@ export default function Projects() {
   return (
     <div id="project-container">
       <div className="project-title">
-        <h1>Some things I've <span className="gold-font">built.</span></h1>
+        <h1>
+          Some things I've <span className="gold-font">built.</span>
+        </h1>
         <p>(Click on images for live demo!)</p>
       </div>
       <div className="project-wrapper">
         <div className="project-box">
-          <div className="underline">
+          <div className="header underline">
             <h1>CulinaryAI</h1>
           </div>
           <p>
