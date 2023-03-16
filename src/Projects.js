@@ -5,6 +5,10 @@ import project2 from "./images/CulinaryAI.PNG";
 export default function Projects() {
   return (
     <div id="project-container">
+      <div className="project-title">
+        <h1>Some things I've <span className="gold-font">built.</span></h1>
+        <p>(Click on images for live demo!)</p>
+      </div>
       <div className="project-wrapper">
         <div className="project-box">
           <div className="underline">
@@ -12,14 +16,12 @@ export default function Projects() {
           </div>
           <p>
             My first project involving TailWind CSS while also exploring the new
-            Chat-GPT3 API. I have always been drawn to machine learning so
-            naturally when the GPT3 API got announced I knew I had to build
-            something with it. CulinaryAI suggests recipes based of users
-            preferred and non preferred ingridients. I used the SpoonacularAPI
-            in order to ensure users would input valid ingridients and generated
-            answers with Chat-GPT3's API. I plan on implementing a backend
-            feature with authentication, allowing users to login and view their
-            saved recipes.
+            Chat-GPT3 API. CulinaryAI suggests recipes based of users preferred
+            and non preferred ingridients. I used the SpoonacularAPI in order to
+            ensure users would input valid ingridients and generated answers
+            with Chat-GPT3's API. I plan on implementing a backend feature with
+            authentication, allowing users to login and view their saved
+            recipes.
           </p>
           <ul>
             <li>Reactjs</li>
