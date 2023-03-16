@@ -82,7 +82,6 @@ export default function Projects() {
             <li>.NET</li>
             <li>HTML</li>
             <li>CSS3</li>
-            <li>API</li>
           </ul>
         </div>
         <div className="project-img-wrapper">
