@@ -497,7 +497,7 @@ li {
     margin-left: 0;
   }
 
-  #project-right > .project-img {
+  #project-right > .project-img-wrapper  {
     order: 2;
   }
 
@@ -568,6 +568,11 @@ li {
   li {
     margin-left: 0;
     font-size: 0.9em;
+  }
+
+  .project-img-wrapper {
+    width: 70vw;
+    height: 30vh;
   }
 
   .project-img {
