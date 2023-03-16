@@ -395,8 +395,8 @@ li {
 }
 
 .project-img-wrapper {
-  width: 25vw;
-  height: 35vh;
+  width: 600px;
+  height: 350px;
   background-color: #dfc572;
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
@@ -421,7 +421,7 @@ li {
 }
 
 .project-img-wrapper:hover {
-    background-color: #edeaea;
+  background-color: #edeaea;
 }
 
 .project-box {
@@ -529,12 +529,12 @@ li {
   #project-right > .project-img-wrapper {
     order: 2;
   }
-  
+
   .project-img-wrapper {
     min-width: 600px;
     min-height: 300px;
   }
-  
+
   .project-img {
     min-width: 600px;
     min-height: 300px;
