@@ -15,7 +15,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 25vh;
+  gap: 10vh;
 }
 
 nav {
@@ -133,8 +133,10 @@ button:hover:before {
 h1 {
   color: #e9e0c9;
 }
+
 p {
   font-size: 2vmin;
+  line-height: 150%;
 }
 
 #intro-name {
@@ -365,7 +367,7 @@ li {
 }
 
 .project-title {
-  margin: auto auto -7em auto;
+  margin: auto auto -4em auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -434,6 +436,10 @@ li {
   gap: 5px;
 }
 
+.project-box > p {
+  height: 60%;
+}
+
 .project-box > ul {
   margin-top: 1.5rem;
   width: 100%;
@@ -444,7 +450,7 @@ li {
 }
 
 .contact-section {
-  margin-top: 15vh;
+  margin-top: 35vh;
   height: 60vh;
   width: 60vw;
   display: flex;
@@ -601,7 +607,7 @@ li {
 
   li {
     margin-left: 0;
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
   .project-img-wrapper {

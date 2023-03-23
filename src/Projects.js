@@ -8,6 +8,7 @@ export default function Projects() {
       <div className="project-title">
         <h1>Some things I've <span className="gold-font">built.</span></h1>
         <p>(Click on images for live demo!)</p>
+        <polyline class="arrow" fill="#fff" points="599,250 599,289 590,279 590,282 600,292 610,282 610,279 601,289 601,250" />
       </div>
       <div className="project-wrapper">
         <div className="project-box">
