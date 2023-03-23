@@ -22,9 +22,7 @@ export default function Projects() {
             Chat-GPT3 API. CulinaryAI suggests recipes based of users preferred
             and non preferred ingridients. I used the SpoonacularAPI in order to
             ensure users would input valid ingridients and generated answers
-            with Chat-GPT3's API. I plan on implementing a backend feature with
-            authentication, allowing users to login and view their saved
-            recipes.
+            with Chat-GPT3's API. 
           </p>
           <ul>
             <li>Reactjs</li>
@@ -53,10 +51,7 @@ export default function Projects() {
           <p>
             My first Reactjs project, this web application is a gaming quiz that
             uses OpenTriviaDB's API. Questions and answers are gathered from
-            this API and a new set is generated each retry of the quiz. Redo of
-            this project is planned with more functionality (e.g. choosing
-            difficulty, theme and length) alongside a more aesthetically aligned
-            theme.
+            this API and a new set is generated each retry of the quiz. 
           </p>
           <ul>
             <li>Reactjs</li>
@@ -75,9 +70,7 @@ export default function Projects() {
             Suspendisse potenti. Etiam id consectetur ligula. Nullam vel purus
             pharetra, posuere magna ut, eleifend nisi. Suspendisse vel risus et
             justo commodo tincidunt. Fusce eget porttitor neque. Duis lacus
-            purus, sollicitudin nec rhoncus elementum, ultrices eu dolor.
-            Pellentesque aliquet facilisis diam eu auctor. Donec sed ullamcorper
-            lorem, sed ultrices urna. Aliquam erat volutpat.
+            purus.
           </p>
           <ul>
             <li>Reactjs</li>
