@@ -29,7 +29,6 @@ export default function Projects() {
             <li>TailWind CSS</li>
             <li>API</li>
             <li>HTML</li>
-            <li>CSS3</li>
           </ul>
         </div>
         <div className="project-img-wrapper">
