@@ -14,10 +14,9 @@ export default function Introduction() {
       </Fade>
       <Fade top distance="20%" delay={1200}>
         <p>
-          I'm a <span className="gold-font">software developer</span> and{" "}
-          <span className="gold-font">data analyst</span> based in Melbourne,
-          Australia. I create and design digital solutions that focus on
-          practicality and sophistication. I have a keen eye for detail and am a
+          I'm a <span className="gold-font">software developer</span> based in Melbourne,
+          Australia. I create digital solutions that focus on
+          practicality and sophistication or other times just for fun! I have a keen eye for detail and am a
           passionate, fast and curious learner. Click below for my resume or scroll
           down to see more about me and my projects.
         </p>

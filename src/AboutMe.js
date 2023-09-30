@@ -12,10 +12,6 @@ export default function AboutMe() {
             <span className="gold-font">University of Melbourne</span> pursuing
             a degree of{" "}
             <span className="gold-font">computing software and systems</span>.
-            I had the privilege working as a{" "}
-            <span className="gold-font">data analyst</span> where I was able to
-            develop much needed professional experience and data analytics
-            skills.
             As a naturally curious learner, the challenge of{" "}
             <span className="gold-font">full-stack development</span> appealed
             to me, and I felt an incredible sense of accomplishment when I
