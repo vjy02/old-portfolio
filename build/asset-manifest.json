@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4271708.css",
-    "main.js": "/static/js/main.5f3cd01d.js",
+    "main.css": "/static/css/main.7561989d.css",
+    "main.js": "/static/js/main.c913a8e8.js",
+    "static/media/CulinaryAI.PNG": "/static/media/CulinaryAI.22e86e8a9aa95e21b448.PNG",
     "static/media/headshot.jpg": "/static/media/headshot.548c424cd6e8971859f8.jpg",
+    "static/media/Resume.pdf": "/static/media/Resume.a0d2ac14beb4b41514ce.pdf",
+    "static/media/project1.PNG": "/static/media/project1.b9996c89af21c33d8ac2.PNG",
+    "static/media/comingsoon.png": "/static/media/comingsoon.d053aad5abd73c39515c.png",
     "index.html": "/index.html",
-    "main.b4271708.css.map": "/static/css/main.b4271708.css.map",
-    "main.5f3cd01d.js.map": "/static/js/main.5f3cd01d.js.map"
+    "main.7561989d.css.map": "/static/css/main.7561989d.css.map",
+    "main.c913a8e8.js.map": "/static/js/main.c913a8e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4271708.css",
-    "static/js/main.5f3cd01d.js"
+    "static/css/main.7561989d.css",
+    "static/js/main.c913a8e8.js"
   ]
 }
