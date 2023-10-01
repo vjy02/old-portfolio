@@ -31,7 +31,7 @@ export default function Projects() {
           </ul>
         </div>
         <div className="project-img-wrapper">
-          <a href="https://culinaryaiv2.netlify.app//" target="_blank">
+          <a href="https://culinaryaiv2.netlify.app/" target="_blank">
             <img className="project-img" src={project2} />
           </a>
         </div>
